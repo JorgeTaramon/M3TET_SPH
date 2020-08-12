@@ -1,4 +1,5 @@
 # M3TET_SPH - 3D Finite Element Convection Code in Spherical Geometry
+![Figure 1](Figures/Figure1.png)
 
 ### Authors:
 Jorge M. Taramón (jorge.taramongomez.2014@alumni.rhul.ac.uk), Jason P. Morgan, Jörg Hasenclever
