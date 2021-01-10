@@ -1,0 +1,31 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{r}=SQRT({X}**2+{Y}**2+{Z}**2)'
+$!ALTERDATA 
+  EQUATION = '{speed}=SQRT({Ux}**2+{Uy}**2+{Uz}**2)'
+$!ALTERDATA 
+  EQUATION = '{depth}=6371-{r}'
+$!ALTERDATA 
+  EQUATION = '{X_pos} = max({X},0)'
+$!ALTERDATA 
+  EQUATION = '{r_X_pos}=SQRT({X_pos}**2+{Y}**2+{Z}**2)'
+$!ALTERDATA 
+  EQUATION = '{X_neg} = min({X},0)'
+$!ALTERDATA 
+  EQUATION = '{r_X_neg}=SQRT({X_neg}**2+{Y}**2+{Z}**2)'
+$!ALTERDATA 
+  EQUATION = '{Y_pos} = max({Y},0)'
+$!ALTERDATA 
+  EQUATION = '{r_Y_pos}=SQRT({X}**2+{Y_pos}**2+{Z}**2)'
+$!ALTERDATA 
+  EQUATION = '{Y_neg} = min({Y},0)'
+$!ALTERDATA 
+  EQUATION = '{r_Y_neg}=SQRT({X}**2+{Y_neg}**2+{Z}**2)'
+$!ALTERDATA 
+  EQUATION = '{Z_pos} = max({Z},0)'
+$!ALTERDATA 
+  EQUATION = '{r_Z_pos}=SQRT({X}**2+{Y}**2+{Z_pos}**2)'
+$!ALTERDATA 
+  EQUATION = '{Z_neg} = min({Z},0)'
+$!ALTERDATA 
+  EQUATION = '{r_Z_neg}=SQRT({X}**2+{Y}**2+{Z_neg}**2)'
