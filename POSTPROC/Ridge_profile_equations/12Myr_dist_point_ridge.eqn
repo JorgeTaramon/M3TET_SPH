@@ -5,3 +5,5 @@ $!ALTERDATA
   EQUATION = '{dist_A_B} = -6371*acos((-317.472*{X} + 6270.79*{Y} + 1079.73*{Z})/6371**2)'
 $!ALTERDATA 
   EQUATION = '{dist_B_B\'} = -443.081 - 6371*acos((-647.435*{X} + 6185.36*{Y} + 1382.59*{Z})/6371**2)'
+$!ALTERDATA 
+  EQUATION = '{h} = -0.2'
