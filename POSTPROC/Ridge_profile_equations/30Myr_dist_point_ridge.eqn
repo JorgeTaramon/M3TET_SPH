@@ -1,0 +1,9 @@
+#!MC 1410
+$!ALTERDATA 
+  EQUATION = '{dist_A_A\'} = 6371*acos((54.7062*{X} + 6286.58*{Y} + 1032.17*{Z})/6371**2)'
+$!ALTERDATA 
+  EQUATION = '{dist_A_B} = -6371*acos((54.7062*{X} + 6286.58*{Y} + 1032.17*{Z})/6371**2)'
+$!ALTERDATA 
+  EQUATION = '{dist_B_B\'} = -460.713 - 6371*acos((-292.323*{X} + 6217.72*{Y} + 1357.96*{Z})/6371**2)'
+$!ALTERDATA 
+  EQUATION = '{h} = -0.2'
