@@ -1,0 +1,319 @@
+#!MC 1410
+$!SETSTYLEBASE FACTORY
+$!PLOTTYPE  = XYLINE
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  HEADERCOLOR = RED
+  BORDERTHICKNESS = 0.75
+  XYPOS
+    {
+    X = 9.0984
+    Y = 5.5748
+    }
+  WIDTH = 2.4685
+  HEIGHT = 1.6142
+$!THREEDAXIS 
+  ASPECTRATIOLIMIT = 25
+  BOXASPECTRATIOLIMIT = 25
+$!GLOBALTIME 
+  SOLUTIONTIME = 0
+$!DELETELINEMAPS 
+$!ACTIVELINEMAPS  =  [1-4]
+$!GLOBALLINEPLOT 
+  DATALABELS
+    {
+    DISTANCESKIP = 5
+    }
+  LEGEND
+    {
+    XYPOS
+      {
+      X = 95
+      }
+    }
+$!LINEMAP  [1]
+  NAME = 'Map 0'
+  ASSIGN
+    {
+    ZONE = 1
+    XAXISVAR = 5
+    YAXISVAR = 4
+    }
+  LINES
+    {
+    COLOR = CUSTOM1
+    LINETHICKNESS = 0.8
+    }
+  SYMBOLS
+    {
+    COLOR = RED
+    FILLCOLOR = RED
+    }
+  BARCHARTS
+    {
+    COLOR = RED
+    FILLCOLOR = RED
+    }
+  ERRORBARS
+    {
+    COLOR = RED
+    }
+$!LINEMAP  [2]
+  NAME = 'Map 1'
+  ASSIGN
+    {
+    ZONE = 2
+    XAXISVAR = 6
+    YAXISVAR = 4
+    }
+  LINES
+    {
+    COLOR = CUSTOM1
+    LINETHICKNESS = 0.8
+    }
+  SYMBOLS
+    {
+    COLOR = GREEN
+    FILLCOLOR = GREEN
+    }
+  BARCHARTS
+    {
+    COLOR = GREEN
+    FILLCOLOR = GREEN
+    }
+  ERRORBARS
+    {
+    COLOR = GREEN
+    }
+$!LINEMAP  [3]
+  NAME = 'Map 2'
+  ASSIGN
+    {
+    ZONE = 3
+    XAXISVAR = 7
+    YAXISVAR = 4
+    }
+  LINES
+    {
+    COLOR = CUSTOM1
+    LINETHICKNESS = 0.8
+    }
+  SYMBOLS
+    {
+    COLOR = BLUE
+    FILLCOLOR = BLUE
+    }
+  BARCHARTS
+    {
+    COLOR = BLUE
+    FILLCOLOR = BLUE
+    }
+  ERRORBARS
+    {
+    COLOR = BLUE
+    }
+$!LINEMAP  [4]
+  NAME = 'Map 3'
+  ASSIGN
+    {
+    ZONE = 4
+    XAXISVAR = 5
+    YAXISVAR = 8
+    }
+  LINES
+    {
+    COLOR = RED
+    LINETHICKNESS = 2
+    }
+  SYMBOLS
+    {
+    COLOR = CUSTOM1
+    FILLCOLOR = CUSTOM1
+    }
+  BARCHARTS
+    {
+    COLOR = CUSTOM1
+    FILLCOLOR = CUSTOM1
+    }
+  ERRORBARS
+    {
+    COLOR = CUSTOM1
+    }
+$!XYLINEAXIS 
+  DEPXTOYRATIO = 1
+  GRIDAREA
+    {
+    DRAWBORDER = YES
+    }
+  VIEWPORTPOSITION
+    {
+    X1 = 14.946
+    Y1 = 15.216
+    X2 = 96.497
+    Y2 = 89.241
+    }
+  VIEWPORTTOPSNAPTARGET = 89.241
+$!XYLINEAXIS 
+  XDETAIL 1
+    {
+    RANGEMIN = -1100
+    RANGEMAX = 2100
+    GRSPACING = 1000
+    TICKLABEL
+      {
+      TEXTSHAPE
+        {
+        HEIGHT = 6.5
+        }
+      OFFSET = 2
+      }
+    GRIDLINES
+      {
+      SHOW = YES
+      LINEPATTERN = DASHED
+      }
+    MINORGRIDLINES
+      {
+      SHOW = YES
+      PATTERNLENGTH = 5
+      LINETHICKNESS = 0.02
+      }
+    TITLE
+      {
+      TITLEMODE = USETEXT
+      TEXT = 'distance (km)'
+      TEXTSHAPE
+        {
+        ISBOLD = NO
+        HEIGHT = 8
+        }
+      OFFSET = 8
+      }
+    }
+$!XYLINEAXIS 
+  YDETAIL 1
+    {
+    RANGEMIN = -0.2999999999999999889
+    RANGEMAX = 1.6999999999999999556
+    AUTOGRID = NO
+    GRSPACING = 0.2
+    TICKS
+      {
+      NUMMINORTICKS = 1
+      }
+    TICKLABEL
+      {
+      TEXTSHAPE
+        {
+        HEIGHT = 6.5
+        }
+      }
+    GRIDLINES
+      {
+      SHOW = YES
+      LINEPATTERN = DASHED
+      }
+    MINORGRIDLINES
+      {
+      SHOW = YES
+      }
+    TITLE
+      {
+      TITLEMODE = USETEXT
+      TEXT = 'axial plume topo (km)'
+      TEXTSHAPE
+        {
+        ISBOLD = NO
+        HEIGHT = 8
+        }
+      OFFSET = 9
+      }
+    }
+$!ATTACHTEXT 
+  ANCHORPOS
+    {
+    X = 93
+    Y = 91
+    }
+  COLOR = CUSTOM1
+  TEXTSHAPE
+    {
+    HEIGHT = 10
+    }
+  TEXT = 'A\''
+$!ATTACHTEXT 
+  ANCHORPOS
+    {
+    X = 29
+    Y = 91
+    }
+  COLOR = CUSTOM1
+  TEXTSHAPE
+    {
+    HEIGHT = 10
+    }
+  TEXT = 'B'
+$!ATTACHTEXT 
+  ANCHORPOS
+    {
+    X = 41
+    Y = 91
+    }
+  COLOR = CUSTOM1
+  TEXTSHAPE
+    {
+    HEIGHT = 10
+    }
+  TEXT = 'A'
+$!ATTACHTEXT 
+  ANCHORPOS
+    {
+    X = 14
+    Y = 91
+    }
+  COLOR = CUSTOM1
+  TEXTSHAPE
+    {
+    HEIGHT = 10
+    }
+  TEXT = 'B\''
+$!ATTACHGEOM 
+  ANCHORPOS
+    {
+    X = 411.5375674494112
+    Y = 1024.037211544402
+    }
+  COLOR = WHITE
+  LINETHICKNESS = 0.2
+  RAWDATA
+1
+2
+0 0 
+-458.385986328 -1980.88220215 
+$!ATTACHGEOM 
+  ANCHORPOS
+    {
+    X = 411.5375674494112
+    Y = 1024.037211544402
+    }
+  COLOR = WHITE
+  LINETHICKNESS = 0.2
+  RAWDATA
+1
+2
+0 0 
+319.233093262 290.583953857 
+$!ATTACHGEOM 
+  ANCHORPOS
+    {
+    X = 738.9561217721039
+    Y = 1322.806642363859
+    }
+  COLOR = WHITE
+  LINETHICKNESS = 0.2
+  RAWDATA
+1
+2
+0 0 
+143.245620728 597.538879395 
+$!SETSTYLEBASE CONFIG
