@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpml:FeatureCollection xmlns:gpml="http://www.gplates.org/gplates" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/XMLSchema-instance" gpml:version="1.6.0336" xsi:schemaLocation="http://www.gplates.org/gplates ../xsd/gpml.xsd http://www.opengis.net/gml ../../../gml/current/base">
+    <gml:featureMember>
+        <gpml:Craton>
+            <gpml:identity>GPlates-3899ff90-aa4e-48b7-99f0-2f6fdf899581</gpml:identity>
+            <gpml:revision>GPlates-444f1a30-c621-4e8b-aabf-654bdd3fc6ca</gpml:revision>
+            <gml:name>Congo_bnd2</gml:name>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">130</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">100</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gpml:reconstructionPlateId>
+                <gpml:ConstantValue>
+                    <gpml:value>701</gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gpml="http://www.gplates.org/gplates">gpml:plateId</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:reconstructionPlateId>
+            <gpml:geometryImportTime>
+                <gml:TimeInstant>
+                    <gml:timePosition gml:frame="http://gplates.org/TRS/flat">130</gml:timePosition>
+                </gml:TimeInstant>
+            </gpml:geometryImportTime>
+            <gpml:outlineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-1.7992244571850629 12.918090938410353 -2.8425583539733483 13.515245679674605 -4.4145889530174092 14.158795130159181 -6.0048147352780861 14.349997051194846 -7.4636373066859232 13.698007451524147 -8.1714288828892485 12.445380002538144 -8.8028990614649825 11.460228258982021 -10.958293852390131 11.941047537584586 -12.899745318592906 12.05438944188338 -15.593472326643127 10.841402768640869 -16.361238878797419 10.555236945401168 -18.299424580716721 12.365149685407712 -19.458619053681069 13.762555778043451 -19.996373060742844 15.337874722384814 -19.830167290589216 17.505911599044946 -18.948686952512627 19.252920960679155 -17.846286222211184 20.496464726611549 -16.540563902500637 21.276424125153145 -15.554664712611409 21.71115133066165 -14.369340713960939 22.109425012940662 -13.392262514880152 22.490903971530273 -12.093923637701385 22.984120431546618 -11.021834465312221 24.642926981431291 -10.309354862206289 25.949308612538491 -10.033527143057817 27.899867014234459 -10.035167852637858 29.299273211940204 -9.9789655954909779 31.552866443974914 -9.129793195321648 32.850891188244795 -8.3779387157692877 33.788477883550314 -6.943250628250917 34.426392881388146 -5.5920656367610304 34.60774918741793 -4.1561194816392399 35.055050938301854 -2.5021961079655082 35.874965469743962 -1.6447673867326493 35.821902889129944 0.57743316316455673 35.43549733129661 4.1664591080072961 34.593572865635672 8.31734042315896 33.19573661475799 10.046683170793173 32.643362705970695 10.696012154238126 31.799711427383652 11.111412905120789 30.075871816307007 11.236914645231208 26.874341853909904 11.611976204464275 24.776637815459281 11.257100057460413 21.866726094028206 10.558641819667551 18.384020486557347 10.306679637095408 17.488604334648347 10.566058776158235 15.702245270699372 10.248568213592465 13.796351605526395 9.731950740074943 12.04715141488489 8.814621151364749 10.529080520930123 7.8615536173572025 9.0372226428151734 6.7670709601388328 7.7869132222792947 5.4569480849590128 8.7467768891450728 -0.42829732680169336 9.6153074201447879 0.24771044086430449 10.359897783233613 -0.28624937835598935 11.652061215642892 -1.7992244571850629 12.918090938410353 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:outlineOf>
+        </gpml:Craton>
+    </gml:featureMember>
+</gpml:FeatureCollection>

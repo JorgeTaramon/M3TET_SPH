@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpml:FeatureCollection xmlns:gpml="http://www.gplates.org/gplates" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/XMLSchema-instance" gpml:version="1.6.0336" xsi:schemaLocation="http://www.gplates.org/gplates ../xsd/gpml.xsd http://www.opengis.net/gml ../../../gml/current/base">
+    <gml:featureMember>
+        <gpml:Craton>
+            <gpml:identity>GPlates-b423f3ce-f5af-4dd7-bd95-a8d304006b16</gpml:identity>
+            <gpml:revision>GPlates-563cca4c-ee89-494b-b019-78538c2f6bc4</gpml:revision>
+            <gml:name>Kalahari_bnd2</gml:name>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">130</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">100</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gpml:reconstructionPlateId>
+                <gpml:ConstantValue>
+                    <gpml:value>701</gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gpml="http://www.gplates.org/gplates">gpml:plateId</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:reconstructionPlateId>
+            <gpml:geometryImportTime>
+                <gml:TimeInstant>
+                    <gml:timePosition gml:frame="http://gplates.org/TRS/flat">130</gml:timePosition>
+                </gml:TimeInstant>
+            </gpml:geometryImportTime>
+            <gpml:outlineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-23.066706646641318 19.861192750462596 -24.834572980924467 17.936996893342201 -26.329726966211059 16.218812947076941 -28.702202963928361 13.472408547965331 -32.046775483403984 14.049216965915866 -33.99333538563824 14.552931106167266 -35.392514127226086 15.504841809401356 -36.298349506119585 17.117579918589573 -36.57596995342444 19.037199304440939 -36.283487570693346 21.011879945202981 -35.704314914545115 22.761463882701786 -34.986177087698614 24.536480476662465 -34.215429714543113 25.923365290934257 -33.283057357438537 27.419807786384396 -32.525140990033663 28.908077548433738 -31.895017022772006 30.077928604889664 -31.075653620364641 31.110984138720372 -29.798753183831426 32.065610806267379 -29.163702615742764 33.11993494171535 -28.157197445865268 33.43278059098413 -27.226353666738511 33.779256378640468 -26.290092123160633 33.92547077568431 -25.690718651819722 33.572191081025338 -24.579933638580869 33.855991412690244 -23.512479973035408 33.853637905051023 -22.781262894205152 33.096788474111264 -21.234697626730465 32.650207674703786 -19.608846437547992 32.865808416237719 -17.663459608785278 33.53847034715367 -15.556241680929956 34.09762677696677 -14.048047182505554 33.932252292645842 -12.840644856900722 33.065077179284494 -12.237549499058915 32.288254204843284 -11.925502343233479 31.699317955405164 -11.477244062517693 30.333931573889643 -11.972504232643391 28.154060535167002 -13.484829602079065 26.989265328590236 -15.51127410122646 25.844971605143332 -17.147374305911448 25.073430687263354 -19.524204765621398 23.806161065710743 -21.663089231186454 21.641456618448029 -23.066706646641318 19.861192750462596 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:outlineOf>
+        </gpml:Craton>
+    </gml:featureMember>
+</gpml:FeatureCollection>

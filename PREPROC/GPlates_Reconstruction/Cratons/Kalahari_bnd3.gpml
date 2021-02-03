@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpml:FeatureCollection xmlns:gpml="http://www.gplates.org/gplates" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/XMLSchema-instance" gpml:version="1.6.0336" xsi:schemaLocation="http://www.gplates.org/gplates ../xsd/gpml.xsd http://www.opengis.net/gml ../../../gml/current/base">
+    <gml:featureMember>
+        <gpml:Craton>
+            <gpml:identity>GPlates-2d75f240-7a8c-477a-818b-f6376d5405cd</gpml:identity>
+            <gpml:revision>GPlates-9c7f5c22-46aa-453e-b50a-381ab20f82ec</gpml:revision>
+            <gml:name>Kalahari_bnd3</gml:name>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">130</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">100</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gpml:reconstructionPlateId>
+                <gpml:ConstantValue>
+                    <gpml:value>701</gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gpml="http://www.gplates.org/gplates">gpml:plateId</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:reconstructionPlateId>
+            <gpml:geometryImportTime>
+                <gml:TimeInstant>
+                    <gml:timePosition gml:frame="http://gplates.org/TRS/flat">130</gml:timePosition>
+                </gml:TimeInstant>
+            </gpml:geometryImportTime>
+            <gpml:outlineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-20.490400256145371 24.150704263754307 -23.567053606066445 20.745208343052138 -25.824346423691765 17.974497055354426 -27.472566513683638 15.957590410509866 -29.407465953543962 13.746109907521166 -32.240315904334601 14.448704569503253 -34.149255721687084 14.986248356261756 -35.071560161360374 15.584403532064837 -35.752232669548491 18.248149320185796 -35.466278137926864 20.791551902364567 -34.132500371171957 24.445063345600307 -32.484773025505184 26.786782595886326 -31.655294672761251 28.307357679579507 -31.318179723938741 29.599596319918895 -30.502087266377885 30.610014393146553 -29.169199276937384 31.411958545465591 -28.610046962125161 32.33574060188355 -26.645913046059274 33.000498826443838 -26.099688513667726 32.649000651194655 -24.220224034360147 33.117176797535024 -22.287507099462488 32.227979578984339 -20.154439050711069 32.016566833235245 -18.018459927859581 32.617352761671491 -16.081352771458167 33.265477392512871 -14.401069577761632 33.258488790338468 -13.114910416313325 32.365785909503224 -12.240700317963793 30.747308585815947 -12.244510072981619 29.463087257999618 -13.349426210688735 28.202751720611651 -14.633069297892773 27.555613100029273 -17.626773069870314 25.90758901702489 -20.490400256145371 24.150704263754307 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:outlineOf>
+        </gpml:Craton>
+    </gml:featureMember>
+</gpml:FeatureCollection>
