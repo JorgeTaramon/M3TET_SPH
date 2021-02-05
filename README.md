@@ -7,9 +7,10 @@ Jorge M. Taramón (jorge.taramongomez.2014@alumni.rhul.ac.uk), Jason P. Morgan, 
 ### Description:
 - M3TET_SPH solves for thermo-mechanical viscous flow evolution in spherical geometries
 - Setup is defined in `model_parameters_sph_south_atlantic_plume.m` so it can simulate the influence of a plume during the South Atlantic rifting
-- Velocity BCs are free-slip along the core-mantle boundary and prescribed plate motion on the top surface using plate kinematic reconstructions (Gurnis et al., 2012)
-- The unstructured finite element spherical mesh is generated using [springmesh_3d_spherical_shell](https://github.com/JorgeTaramon/Mesh_Generator/tree/master/springmesh_3d_spherical_shell) ([Taramón et al., 2019](https://doi.org/10.1016/j.cageo.2019.104324))
-- The Double-Jacobian approach [Morgan et al., 2019](https://onlinelibrary.wiley.com/doi/abs/10.1002/fld.4799) is used to improve the effieciency when solving solving problems in a spherical geometry as well as to speed-up the particle search routines in curved-edge elements
+- Velocity BCs are free-slip along the core-mantle boundary and prescribed plate motion on the top surface using plate kinematic reconstructions [Gurnis et al., 2012]
+- The unstructured finite element spherical mesh is generated using [springmesh_3d_spherical_shell](https://github.com/JorgeTaramon/Mesh_Generator/tree/master/springmesh_3d_spherical_shell) [[Taramón et al., 2019](https://doi.org/10.1016/j.cageo.2019.104324)]
+- The Double-Jacobian approach [[Morgan et al., 2019](https://onlinelibrary.wiley.com/doi/abs/10.1002/fld.4799)] is used to improve the effieciency when solving solving problems in a spherical geometry as well as to speed-up the particle search routines in curved-edge elements
+- [Morgan et al., 2020](https://www.pnas.org/content/117/45/27877) show the results of some models ran with M3TET_SPH
 
 ### Running this code for the first time:
 1. Download "SuiteSparse" from:
@@ -29,4 +30,3 @@ Jorge M. Taramón (jorge.taramongomez.2014@alumni.rhul.ac.uk), Jason P. Morgan, 
     - 6.2. Create a new case for your computer:
         - Enter the hostname you obtained in 5.1 as a new ‘case’, e.g., case 'fpdc462'
         - Enter the path to save the output data in ‘path2data’
-7. Run `M3TET_SPH_SOUTH_ATLANTIC_PLUME.m`
